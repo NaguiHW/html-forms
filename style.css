@@ -1,0 +1,21 @@
+*{
+
+}
+
+body{
+    background-color: #ECEEF1;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    text-align: right;
+    padding: 10px 30px;
+}
+
+header > div > h5{
+    font-weight: 400;
+    color: #505050;
+    font-size: 12px;
+    line-height: 1.5;
+}
