@@ -29,7 +29,40 @@ header{
     padding: 5px 25px;
 }
 
+.intuit-logo{
+    margin: 20px auto;
+}
+
 .intuit-logo img {
     width: 125px;
     opacity: 0.4;
+}
+
+.other-logos img{
+    height: 23px;
+    width: 23px;
+}
+
+.other-logos{
+    height: 35px;
+}
+
+.other-logos span{
+    margin-right: 4px;
+}
+
+.other-logos a{
+    text-decoration: none;
+    color: #73747A;
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: .8px;
+}
+
+#form{
+    margin: 0 auto;
+    width: 380px;
+    /* height: 694px; */
+    background-color: white;
+    vertical-align: center;
 }
