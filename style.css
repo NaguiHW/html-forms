@@ -19,8 +19,8 @@ header{
 
 .sign-in-button {
     background-color: #0077C5;
-    border-radius: 4px;
     border: 1px solid #4c4c4c;
+    border-radius: 4px;
     color: white;
     padding: 5px 25px;
 }
@@ -57,10 +57,10 @@ header{
 
 .form{
     background-color: white;
-    border: 1px solid #c7c7c7;
+    outline: 1px solid #c7c7c7;
     margin: 0 auto;
     padding: 30px;
-    vertical-align: center;
+    /* vertical-align: center; */
     width: 380px;
 }
 
@@ -72,11 +72,11 @@ h3 {
     font-size: 14px;
 }
 
-.title-form h3{
+.create-account{
     padding: 20px 0;
 }
 
-.title-form h3 a {
+.learn-more{
     font-size: 12px;
 }
 
