@@ -1,0 +1,181 @@
+body{
+    background-color: #ECEEF1;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+header{
+    padding: 10px 30px;
+    text-align: right;
+}
+
+.row{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 20px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+.text a {
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.top-button {
+    display: flex;
+    align-items: center;
+}
+
+.header-font{
+    color: #505050;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.sign-in-button {
+    background-color: #0077C5;
+    border: 1px solid #4c4c4c;
+    border-radius: 4px;
+    color: white;
+    padding: 10px 30px;
+    font-size: 12px;
+}
+
+.intuit-logo{
+    margin: 20px auto;
+}
+
+.intuit-logo img {
+    opacity: 0.4;
+    width: 125px;
+}
+
+.other-logos img{
+    height: 23px;
+    width: 23px;
+}
+
+.other-logos{
+    height: 35px;
+}
+
+.other-logos span{
+    margin-right: 4px;
+}
+
+.other-logos a{
+    color: #73747A;
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: .8px;
+    text-decoration: none;
+}
+
+.form{
+    background-color: white;
+    margin: 0 auto;
+    outline: 1px solid #c7c7c7;
+    padding: 30px;
+    width: 380px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+.create-account{
+    padding: 20px 0;
+}
+
+.learn-more{
+    font-size: 12px;
+}
+
+input {
+    width: 100%;
+    padding: 2px 0;
+    font-size: 18px;
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 2px;
+}
+
+.left-align {
+    color: #404040;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+
+
+h5{
+    color: #444;
+    font-size: 10px;
+    letter-spacing: .8px;
+    padding: 5px 0;
+    margin: 0 0;
+}
+
+.left-align button{
+    background-color: #0979C8;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 1px 1.5px #888888;
+    color: white;
+    font-size: 1.125em;
+    height: 44px;
+    margin-top: 10px;
+    padding: 12px 6px;
+    width: 100%;
+}
+
+.left-align i{
+    padding-right: 8px;
+}
+
+.agreement{
+    color: #757575;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.captcha{
+    background-color: #ECEEF1;
+    color: #8d9096;
+    font-size: 10px;
+    margin: 32px -30px -30px;
+    padding: 16px;
+}
+
+.captcha p {
+    margin-bottom: 2px;
+}
+
+footer {
+    color: #505050;
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    padding-top: 25px;
+}
+
+footer a {
+    color: #505050;
+}
+
+@media only screen and (max-width: 800px) {
+    header {
+        display: none;
+    }
+}
