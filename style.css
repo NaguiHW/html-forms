@@ -10,6 +10,27 @@ header{
     text-align: right;
 }
 
+.row{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 20px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+.text a {
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.top-button {
+    display: flex;
+    align-items: center;
+}
+
 .header-font{
     color: #505050;
     font-size: 12px;
@@ -22,7 +43,8 @@ header{
     border: 1px solid #4c4c4c;
     border-radius: 4px;
     color: white;
-    padding: 5px 25px;
+    padding: 10px 30px;
+    font-size: 12px;
 }
 
 .intuit-logo{
@@ -81,6 +103,10 @@ h3 {
 
 input {
     width: 100%;
+    padding: 2px 0;
+    font-size: 18px;
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 2px;
 }
 
 .left-align {
@@ -92,11 +118,14 @@ input {
     text-align: left;
 }
 
+
+
 h5{
     color: #444;
     font-size: 10px;
     letter-spacing: .8px;
     padding: 5px 0;
+    margin: 0 0;
 }
 
 .left-align button{
